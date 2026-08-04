@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.musky-form {
+  width: 400px;
+  max-width: 100%;
+}
+
+.musky-input {
+  background: #f3f4f6;
+  border: 1px solid transparent;
+}
+
+.musky-input:focus {
+  background: #ffffff;
+  border-color: #7e78e2;
+  box-shadow: none;
+}
+
+.musky-btn {
+  background: #eef2ff;
+  color: #111827;
+}
+
+.musky-btn:hover {
+  background: #4338ca;
+  color: #ffffff;
+}
+
+.musky-link {
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.nav_input:focus{
+  outline: none;
+}
+
+
+.card{
+  transition: transform 0.4s ease;
+}
+
+.card:hover{
+  transform: scale(1.0);
+  box-shadow: 0 10px 10px rgba(3, 111, 233, 0.507);
+}
+
+
+.badge-active {
+  background-color: #6bbb02;
+  color: #27500a;
+}
+
+.badge-leave {
+  background-color: #f59f0c;
+  color: #633806;
+}
+
+.badge-suspended {
+  background-color: #f51515;
+  color: #791f1f;
+}
+
+
