@@ -66,3 +66,16 @@
 }
 
 
+.icon-btn {
+  background: none;
+  border: none;
+  color: #6b6b66;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.icon-btn:hover {
+  background-color: #f1f0ec;
+}
