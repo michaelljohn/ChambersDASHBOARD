@@ -66,6 +66,14 @@ forms.addEventListener("submit", function(events) {
 
     if (validateForm()) {
 
+
+        let existingEmail = localStorage.getItem("SignInMail");
+
+            if (existingEmail === mail) {
+                alert("User already exists");
+                return;
+            }
+
         localStorage.setItem("name", name);
         localStorage.setItem("SignInMail", mail);
         localStorage.setItem("SignInPassword", password);
