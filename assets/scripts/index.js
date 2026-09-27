@@ -4,17 +4,16 @@ forms.addEventListener("submit", function(events) {
 
     events.preventDefault();
 
-    // Get the actual input elements
     let nameInput = document.getElementById("name");
     let mailInput = document.getElementById("SignInMail");
     let passwordInput = document.getElementById("SignInPassword");
 
-    // Get the values typed by the user
+   
     let name = nameInput.value;
     let mail = mailInput.value;
     let password = passwordInput.value;
 
-    // Get the error elements
+   
     let nameError = document.getElementById("nameError");
     let emailError = document.getElementById("emailError");
     let passwordError = document.getElementById("passwordError");
@@ -75,7 +74,7 @@ forms.addEventListener("submit", function(events) {
         console.log(localStorage.getItem("SignInMail"));
         console.log(localStorage.getItem("SignInPassword"));    
 
-        window.location.href = "./assets/pages/dashboard.html";
+        window.location.href = "./assets/pages/login.html";
 
     }
 
